@@ -13,7 +13,7 @@ $(function(){
 	$('#1').click(function(){
 		articleName="palace";
 		console.log(articleName);
-		sessionStorage.setItem("articleName", articleName);         /*browser will remember this variable and can pass it to other js files */
+		sessionStorage.setItem("articleName", articleName);         /* browser will remember this variable and can pass it to other js files */
 	});
 
 	$('#2').click(function(){
