@@ -1,0 +1,240 @@
+body{                                            /*initial properties for */
+	background: #fff;
+	font-family: Ubuntu,sans-serif;     /*we use two font families Ubuntu and Montserrat*/
+	font-size: 16px;          /*text size*/
+	font-weight: 400;		
+	min-width: 320px;            /*for mobile devices, at least 320px screen*/
+	color: #6E6E6E;		  /*color of text*/
+	overflow-x: hidden;        /*hide elements if there is a scroll on x-acses*/
+}
+a{                                               
+	font-family: Montserrat,sans-serif;
+	font-weight: 700;                 /*basic code for all the anchor tags*/
+	font-style: 17px;
+	color: #F27E37;
+}
+a:hover{
+	color: #9C410A;          /*hover stands for: when you direct mouse to the element color will be changed*/
+}
+img{
+	max-width: 100%;        /*100% is needed so that image will be of full size*/
+	height: auto;
+}
+section{
+	position: relative; /*all sections will be of relative positioning so that no other block could take their position*/   
+}
+h2{
+	font-family: Montserrat,sans-serif;				/*properties for h2 tag*/
+	font-size: 30px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.btn{                          /* here we are changing property of btn class, it is bootstraps class, it means we are modifiying bootstrap object*/ 
+	font-family: Monserrat,sans-serif;
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 0 10px;
+	border: none;
+	transition: all 0.5s;      /*transition is used to make scenario smooth and more beautiful*/
+}
+.btn-primary{
+	background: #0081CC;
+}
+.btn-primary:hover{
+	background: #003F64;
+}
+
+/*==========================================================SECTION mainmenu and maincontent-uni==============================================================*/
+#mainmenu{
+	height: 50px;
+}
+#mainmenu>.section-content{
+	position: fixed;
+	width: 100%; 
+	z-index: 20;
+}
+.navbar{
+	margin: 0;
+}
+#mainmenu .navbar-header h3{
+	display: inline-block;
+	font-weight: 700;
+	margin: 0;
+	vertical-align: middle;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-family: Ubuntu;
+}
+#mainmenu .navbar-header img{
+	height: 50px;
+}
+#maincontent-uni{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0 0 90px 0;
+
+}
+audio::-webkit-media-controls-panel{
+	background: #fff;
+	opacity: 1;
+}
+#article{
+	height: 94vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-inverse{
+	background-color: #ECECEC;
+	border:none;
+	border-radius: 0;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #F27E37;
+}
+#home>a{                                  					/*home btn*/
+	/*color:#0081CC;*/
+	background-color: #BCBEC0;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+	color:#0081CC;;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{						/* make the nav-bar items of black color for hover */
+	color: #0081CC;
+}
+
+.article-text{								/* div with article */
+	margin-top: 35%;
+	background: rgba(256,256,256,0.88);
+	padding: 30px;
+}
+.article-text h2{       					/*heading of article*/
+	text-align: center;
+	color:#F27E37;
+}
+.navbar-nav>li{
+	margin-left: 40px;
+}
+/*=================================================subcontent==========================================================*/
+#subcontent{
+	padding: 90px 0;
+}
+#subcontent .uni-title{
+	text-align: center;
+}
+#subcontent .uni-title img{
+	padding-bottom: 50px;
+}
+#subcontent .uni-title h2{
+	font-size: 30px;
+}
+.uni-contacts{
+	padding: 90px 0;
+}
+/*=================================================form==========================================================*/
+
+#form{
+	padding: 90px 0;
+	background: #f3f3f3;
+}
+.section-form{
+	background: rgba(256,256,256,0.88);
+	padding: 40px;
+	border-radius: 2px;
+	margin-top: 50px;
+}
+.section-form input{
+	height: 44px;
+	background: #efefef;
+	padding-right: 30px;
+}
+.has-success .form-control-feedback{      /*input field for form*/
+	color: #2cc7c1;
+}
+.has-success .form-control,
+.section-form input.form-control:focus{   /*input field for form on focus*/
+	border: 2px solid #95e3e0;
+	background: #fff;
+	box-shadow: none;
+}
+.form-control-feedback{       /*make icon on right place*/
+	right: 10px;
+	line-height: 44px;
+}
+.has-error .form-control-feedback {         /*on correct input */
+    color: #a94442;
+    line-height: 44px;
+}
+.has-success .form-control-feedback {		/*on incorrect input */	
+    color: #2cc7c1;
+    line-height: 44px;
+}
+#subscribeBtn{
+	opacity: 1;
+	letter-spacing: 2px;
+}
+.middle{
+	font-size: 18px;
+}
+.uni-contacts .middle{
+	padding-top: 50px;
+	text-align: center;
+}
+
+/*==========================================================SECTION contacts==============================================================*/
+#contacts{
+	background: #525b64;
+	padding: 70px 0;
+}
+#contacts h3,
+#contacts h4{
+	color: #fff;
+	margin:0 0 25px;
+}
+#contacts h3 span{
+	font-weight: 700;
+}
+#contacts p{
+	color: #cdd0d2;
+}
+#contacts a,
+#contacts .contacts p{
+	color: #2cc7c1;
+}
+#contacts .contacts p i{
+	margin-right: 10px;
+}
+#contacts .social img{
+	margin-right: 10px;
+}
+.fab{
+	font-size: 20px;
+	margin-left: 10px;
+	color: #2CC7C1;
+}
+.fabb{
+	margin: 0;
+}
+
+/*==========================================================SECTION copy==============================================================*/
+#copy{
+	background: #3f464c;
+	color: #cdd0d2;
+	padding: 15px;	
+}
+#copy p{
+	margin: 0;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.navbar-header{
+		display: none;
+	}
+}
