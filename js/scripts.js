@@ -44,7 +44,6 @@ $(function(){
 		});
 		e.preventDefault();
 		$(this).get(0).reset();
-		alertify.success("Message sent");
 	});
 
 	/*===========================================Javascript code for QUIZ================================================*/
