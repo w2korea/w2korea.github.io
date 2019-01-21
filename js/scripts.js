@@ -35,7 +35,8 @@ $(function(){
 
 	/*===========================================Javascript code for Form================================================*/
 
-	$('#myForm').submit(function(e){
+	$('#myForm').submit(function(){
+		alert("message?: DOMString")
 	});
 
 	/*===========================================Javascript code for QUIZ================================================*/
