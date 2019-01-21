@@ -36,14 +36,6 @@ $(function(){
 	/*===========================================Javascript code for Form================================================*/
 
 	$('#myForm').submit(function(e){
-		$.ajax({
-			url:"https://formspree.io/ismoil.793@gmail.com",				/*this code I took from web-page of  formspree  */
-			method: "POST",													/* it is necessary for form to work properly*/
-			data: $(this).serialize(),										
-			dataType: "json"
-		});
-		e.preventDefault();
-		$(this).get(0).reset();
 	});
 
 	/*===========================================Javascript code for QUIZ================================================*/
