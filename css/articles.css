@@ -238,3 +238,9 @@ audio::-webkit-media-controls-panel{
 		display: none;
 	}
 }
+
+
+@media only screen and (max-width : 600px) {
+	
+
+}
