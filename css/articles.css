@@ -240,7 +240,7 @@ audio::-webkit-media-controls-panel{
 }
 
 /*mobile devices*/
-@media only screen and (max-width : 600px) {	/*there were problems with menu navigation*/
+@media only screen and (max-width : 600px) {	/* there were problems with menu navigation, here we corrected them */
 	.navbar-nav>li{
 		margin-left: 0;
 	}
