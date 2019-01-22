@@ -239,7 +239,7 @@ audio::-webkit-media-controls-panel{
 	}
 }
 
-
+/*mobile devices*/
 @media only screen and (max-width : 600px) {
 	.navbar-nav ul li{
 		margin: 0;
