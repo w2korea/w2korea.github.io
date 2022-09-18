@@ -179,6 +179,7 @@ h1{
 	height: 140px;
 	transition: all .5s;
 	cursor: pointer;
+	object-fit: cover;
 }
 .item > div:hover .img-circle{     /*avatar when moues directed*/
 	opacity: 0.85;
